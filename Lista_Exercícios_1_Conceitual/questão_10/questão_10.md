@@ -1,6 +1,6 @@
 Sistema para biblioteca pessoal, considerando a organização dos livros em estantes, por gênero literário.
 
-Como entidades: 
+Entidades: 
 1.Livro
     -ISBN (chave primária)
     -título

@@ -1,0 +1,23 @@
+aluno
+    -dados_pessoais
+        -matrícula (PK)
+        -CPF
+        -nome
+        -telefone
+        -endereço
+        -nome_dos_pais
+    -historico_disciplinas_cursadas
+        -id_disciplina (PK)
+        -matrícula (PK)
+        -nome_disciplina
+        -id_professor
+    -notas
+        -id_disciplina (PK)
+        -matrícula (PK)
+        -avaliações
+    -professores_responsáveis
+        -id_professor (PK)
+        -nome
+        -email
+        -telefone
+        -id_disciplina (PK)
